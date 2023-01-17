@@ -4,7 +4,7 @@ Tarefas
 [x] Colocar input que receberá quantidade de bolhas na página;
 [ ] Criar limitador de máximo 9 bolhas;
 [x] Criar espaço limitador;
-[ ] Colocar imagem de natureza.
+[x] Colocar imagem de natureza.
 [ ] Criar lógica para inserir a quantidade desejada de bolhas na tela;
 
 
