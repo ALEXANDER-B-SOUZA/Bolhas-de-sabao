@@ -16,17 +16,13 @@ p2{
   	margin-right: auto;
 }
 
-input{
-	width: 100px;
+input, button{
+	width: 50px;
 	height: 30px;
 	display: block; 
-  	margin-left: auto; 
-  	margin-right: auto;
+  	margin-left: 45em; 
+  	margin-right: 2em;
 }
 
-button{
-	display: block; 
-  	margin-left: auto; 
-  	margin-right: auto;
-}
+
 
