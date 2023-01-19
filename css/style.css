@@ -24,6 +24,18 @@ input, button{
   	margin-left: 45em; 
   	margin-right: 2em;
 }*/
+input{
+    width: 8em;
+      text-align: center;
+      padding: 5px 5px;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      background-color: #092b76;
+      font-size: 20px;
+      font-family: sans-serif;
+      color: #eee; 
+  }
+  
 *{
     margin: 0;
     padding: 0;
