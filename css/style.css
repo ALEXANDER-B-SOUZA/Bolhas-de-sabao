@@ -1,7 +1,7 @@
 div{
     width: 750px;
 	height: 400px;
-	background-image: url("C:/Users/PC/Pictures/grama.jpg"); 
+	background-image: url(".imagens/gramado.jpg"); 
 	background-repeat: no-repeat;
 	display: block; 
   	margin-left: auto; 
