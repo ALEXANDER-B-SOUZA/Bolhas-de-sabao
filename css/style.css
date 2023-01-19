@@ -25,8 +25,8 @@ input, button{
   	margin-right: 2em;
 }*/
 input{
-    width: 8em;
-      text-align: center;
+    width: 2em;
+      text-align: justify;
       padding: 5px 5px;
       border: 1px solid #eee;
       border-radius: 6px;
@@ -48,8 +48,8 @@ section{
     overflow: hidden;
     background: rgb(31, 105, 189);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center ;
+    align-items: flex-start;
 }
 section h2{
     font-size: 5em;
