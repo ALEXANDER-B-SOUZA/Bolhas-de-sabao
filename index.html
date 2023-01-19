@@ -13,13 +13,25 @@
 <!-- lincando o index ao css-->
 <link rel="stylesheet" href="css/style.css">
 <body>
-    <!--Lincando o JavaScript-->
-    <script src="js/main.js"></script>
-    <p2 class="titulo">BOLHAS DE SABÃO</p2><br><br>
-    <input  type="number" name="quantidade" id="quantidade"><button onclick="setup()">Enviar</button>
-    <br><br>
-    <div class="tela">
-    
-    </div>
+    <section>
+        <h2>Bolhas</h2>
+    </section>
+    <script type="text/javascript">
+        function createBolhas(){
+            const section = document.querySelector('section');
+            const createElement = document.createElement('span');
+            var size = Math.random() * 60;
+
+            createElement.style.width = 20 + size + 'px';
+            createElement.style.height = 20 + size + 'px';
+            createElement.style.left = Math.random() * innerWidth + 'px';
+            section.appendChild(createElement);
+
+            setTimeout(() => {
+                createElement.remove();
+            },4000)
+        }
+        setInterval(createBolhas,50);
+    </script>
 </body>
 </html>
