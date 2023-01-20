@@ -11,32 +11,11 @@
 <!-- lincando o index ao css-->
 <link rel="stylesheet" href="css/style.css">
 <body>
-    
+    <!--Lincando o JS-->
+    <script src="css\js\main.js"></script>
     <section>
-        <br>
-        <input type="number" name="quantidade" id="quantidade"><button onclick="iniciar()">Enviar</button>
+         <input type="number" name="quantidade" id="quantidade"><button onclick="iniciar()">Enviar</button>
         <h2>Bolhas de Sabão</h2>
-    </section>
-    <script type="text/javascript">
-        function iniciar(){
-let bolhas =  document.getElementById("quantidade").value;
-        
-        function createBolhas(){
-            const section = document.querySelector('section');
-            const createElement = document.createElement('span');
-            var size = Math.random() * 50;
-
-            createElement.style.width = 20 + size + 'px';
-            createElement.style.height = 20 + size + 'px';
-            createElement.style.left = Math.random() * innerWidth + 'px';
-            section.appendChild(createElement);
-
-            setTimeout(() => {
-                createElement.remove();
-            },8000)
-        }
-        setInterval(createBolhas,75);
-    }
-    </script>
-</body>
+    </section>    
+   </body>
 </html>
