@@ -1,3 +1,6 @@
+function iniciar(){
+let bolhas =  document.getElementById("quantidade").value;
+console.log(bolhas);
 
 
 function createBolhas(){
@@ -12,6 +15,7 @@ function createBolhas(){
 
     setTimeout(() => {
         createElement.remove();
-    },4000)
+    },bolhas)
 }
 setInterval(createBolhas,50);
+}

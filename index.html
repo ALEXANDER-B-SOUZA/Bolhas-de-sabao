@@ -13,16 +13,21 @@
 <!-- lincando o index ao css-->
 <link rel="stylesheet" href="css/style.css">
 <body>
+    
     <section>
         <br>
-        <input type="number" name="quantidade" id="quantidade"><button>Enviar</button>
+        <input type="number" name="quantidade" id="quantidade"><button onclick="iniciar()">Enviar</button>
         <h2>Bolhas de Sabão</h2>
     </section>
     <script type="text/javascript">
+        function iniciar(){
+let bolhas =  document.getElementById("quantidade").value;
+        alert(bolhas);
+
         function createBolhas(){
             const section = document.querySelector('section');
             const createElement = document.createElement('span');
-            var size = Math.random() * 60;
+            var size = Math.random() * bolhas;
 
             createElement.style.width = 20 + size + 'px';
             createElement.style.height = 20 + size + 'px';
@@ -31,9 +36,10 @@
 
             setTimeout(() => {
                 createElement.remove();
-            },4000)
+            },8000)
         }
-        setInterval(createBolhas,50);
+        setInterval(createBolhas,75);
+    }
     </script>
 </body>
 </html>
