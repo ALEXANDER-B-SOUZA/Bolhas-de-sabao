@@ -1,8 +1,5 @@
 function iniciar(){
 let bolhas =  document.getElementById("quantidade").value;
-console.log(bolhas);
-
-
 function createBolhas(){
     const section = document.querySelector('section');
     const createElement = document.createElement('span');
@@ -15,7 +12,7 @@ function createBolhas(){
 
     setTimeout(() => {
         createElement.remove();
-    },4000)
+    },bolhas*1000)
 }
 setInterval(createBolhas,50);
 }
