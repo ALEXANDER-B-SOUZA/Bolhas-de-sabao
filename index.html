@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta  nome =" autor " conteúdo =" Alexander Batista de Souza"> 
     <title>Bolhas de sabão</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
-    <script src="sketch.js"></script>
     
 </head>
 <!-- lincando o index ao css-->
@@ -22,12 +20,11 @@
     <script type="text/javascript">
         function iniciar(){
 let bolhas =  document.getElementById("quantidade").value;
-        alert(bolhas);
-
+        
         function createBolhas(){
             const section = document.querySelector('section');
             const createElement = document.createElement('span');
-            var size = Math.random() * bolhas;
+            var size = Math.random() * 50;
 
             createElement.style.width = 20 + size + 'px';
             createElement.style.height = 20 + size + 'px';

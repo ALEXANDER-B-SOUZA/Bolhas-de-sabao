@@ -15,7 +15,7 @@ function createBolhas(){
 
     setTimeout(() => {
         createElement.remove();
-    },bolhas)
+    },4000)
 }
 setInterval(createBolhas,50);
 }
