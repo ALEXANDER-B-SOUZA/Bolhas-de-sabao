@@ -1,9 +1,9 @@
 function iniciar(){
-let bolhas =  document.getElementById("quantidade").value;
+
 function createBolhas(){
     const section = document.querySelector('section');
     const createElement = document.createElement('span');
-    var size = Math.random() * 60;
+    var size = Math.random() * 50;
 
     createElement.style.width = 20 + size + 'px';
     createElement.style.height = 20 + size + 'px';
@@ -12,7 +12,7 @@ function createBolhas(){
 
     setTimeout(() => {
         createElement.remove();
-    },bolhas*1000)
+    },8000)
 }
 setInterval(createBolhas,50);
 }

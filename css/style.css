@@ -1,14 +1,16 @@
 
-input{
-    width: 2em;
+div{
+    width: 50em;
       text-align: center;
-      padding: 5px 5px;
-      border: 1px solid #eee;
-      border-radius: 6px;
-      background-color: #092b76;
-      font-size: 20px;
+      padding: 1px 1px;
+      border: 1px solid rgb(31, 105, 189);
+      background-color: rgb(31, 105, 189);
+      font-size: 30px;
       font-family: sans-serif;
-      color: #eee; 
+      color: rgb(246, 248, 250); 
+      display: flex;
+      justify-content: center ;
+      align-items: flex-start;
   }
   
 *{
