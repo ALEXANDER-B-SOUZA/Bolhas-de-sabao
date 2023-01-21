@@ -1,6 +1,7 @@
 function iniciar(){
 
 function createBolhas(){
+    
     const section = document.querySelector('section');
     const createElement = document.createElement('span');
     var size = Math.random() * 50;
@@ -15,4 +16,7 @@ function createBolhas(){
     },8000)
 }
 setInterval(createBolhas,50);
+const music = new Audio('audio/Bolhas na água.mp3');
+    music.play();
+    music.loop = true;
 }
