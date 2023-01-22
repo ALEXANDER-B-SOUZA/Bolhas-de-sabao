@@ -18,8 +18,6 @@ function createBolhas(){
 setInterval(createBolhas,50);
 const music = new Audio('audio/Bolhas na água.mp3');
     music.play();
-    music.loop = true;
-    function terminar(){
-        break createBolhas();
+    music.loop = true;    
 }
-}
+
