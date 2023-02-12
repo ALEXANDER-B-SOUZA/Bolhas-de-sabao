@@ -1,4 +1,4 @@
-Tarefas
+Tarefas     
 
 [x] Colocar título na página;
 [x] Criar espaço limitador;
@@ -9,7 +9,7 @@ Tarefas
 [X] Criar bolhas com CSS; 
 
 
-Extra
+Extra     
 
 [ ] ao clicar sobe qualquer balão, o mesmo estoura, faz barulho e todos somem;
 
