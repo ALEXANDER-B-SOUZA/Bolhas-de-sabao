@@ -15,6 +15,7 @@ function createBolhas(){
         createElement.remove();
     },8000)
 }
+    
 setInterval(createBolhas,50);
 const music = new Audio('audio/Bolhas na água.mp3');
     music.play();
